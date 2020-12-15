@@ -1,4 +1,4 @@
-const UniswapV2Router02 = artifacts.require("UniswapV2Router02");
+const SeaSwapV2Router02 = artifacts.require("SeaSwapV2Router02");
 const WETH9 = artifacts.require("WETH9");
 module.exports = async function (deployer, network, accounts) {
   // Use deployer to state migration tasks.
@@ -11,7 +11,7 @@ console.log(factory,
   weth,'factory,weth');
 
 
-  await deployer.deploy(UniswapV2Router02, factory, weth);
+  await deployer.deploy(SeaSwapV2Router02, factory, weth);
 
 };
 
