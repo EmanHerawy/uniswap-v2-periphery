@@ -43,15 +43,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/Migrations.sol\":{\"keccak256\":\"0x7797e159bfd6b953422b4bd6d5de5946971d8b5ed74c4b1f6517d61fe236b851\",\"urls\":[\"bzz-raw://56bdf6130f3ced3e78baa0f3e7f34cb4c5131d90721326056bbf0dd202d8539d\",\"dweb:/ipfs/QmZqRKebKwn6YXejnnPribsyiXLmrAx32JpatFhvS76NKp\"]}},\"version\":1}",
-  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b5061016f806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610084575b600080fd5b61004e6100a3565b60408051918252519081900360200190f35b6100686100a9565b604080516001600160a01b039092168252519081900360200190f35b6100a16004803603602081101561009a57600080fd5b50356100b8565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146101015760405162461bcd60e51b81526004018080602001828103825260338152602001806101076033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220db930305342017764e0a22bcd45f48dea2de85a8d8474d245f156c3c6d4352fa64736f6c63430006060033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610084575b600080fd5b61004e6100a3565b60408051918252519081900360200190f35b6100686100a9565b604080516001600160a01b039092168252519081900360200190f35b6100a16004803603602081101561009a57600080fd5b50356100b8565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146101015760405162461bcd60e51b81526004018080602001828103825260338152602001806101076033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220db930305342017764e0a22bcd45f48dea2de85a8d8474d245f156c3c6d4352fa64736f6c63430006060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"last_completed_migration\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"completed\",\"type\":\"uint256\"}],\"name\":\"setCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/Migrations.sol\":\"Migrations\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/Migrations.sol\":{\"keccak256\":\"0x7797e159bfd6b953422b4bd6d5de5946971d8b5ed74c4b1f6517d61fe236b851\",\"urls\":[\"bzz-raw://56bdf6130f3ced3e78baa0f3e7f34cb4c5131d90721326056bbf0dd202d8539d\",\"dweb:/ipfs/QmZqRKebKwn6YXejnnPribsyiXLmrAx32JpatFhvS76NKp\"]}},\"version\":1}",
+  "bytecode": "0x6080604052600080546001600160a01b0319163317905534801561002257600080fd5b5061016f806100326000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610084575b600080fd5b61004e6100a3565b60408051918252519081900360200190f35b6100686100a9565b604080516001600160a01b039092168252519081900360200190f35b6100a16004803603602081101561009a57600080fd5b50356100b8565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146101015760405162461bcd60e51b81526004018080602001828103825260338152602001806101076033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220630ffaba797ea5d355d2abc340e117e368f015b3e0f322faf2bfbfad93b1a4b564736f6c63430006060033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063445df0ac146100465780638da5cb5b14610060578063fdacd57614610084575b600080fd5b61004e6100a3565b60408051918252519081900360200190f35b6100686100a9565b604080516001600160a01b039092168252519081900360200190f35b6100a16004803603602081101561009a57600080fd5b50356100b8565b005b60015481565b6000546001600160a01b031681565b6000546001600160a01b031633146101015760405162461bcd60e51b81526004018080602001828103825260338152602001806101076033913960400191505060405180910390fd5b60015556fe546869732066756e6374696f6e206973207265737472696374656420746f2074686520636f6e74726163742773206f776e6572a2646970667358221220630ffaba797ea5d355d2abc340e117e368f015b3e0f322faf2bfbfad93b1a4b564736f6c63430006060033",
   "sourceMap": "66:352:0:-:0;;;90:33;;;-1:-1:-1;;;;;;90:33:0;113:10;90:33;;;66:352;2:2:-1;;;;27:1;24;17:12;2:2;66:352:0;;;;;;;",
   "deployedSourceMap": "66:352:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;66:352:0;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;127:36:0;;;:::i;:::-;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;-1:-1:-1;;;;;90:33:0;;;;;;;;;;;;;;313:103;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;-1:-1;313:103:0;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;-1:-1:-1;;;;;90:33:0;;:::o;313:103::-;225:5;;-1:-1:-1;;;;;225:5:0;211:10;:19;196:101;;;;-1:-1:-1;;;196:101:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;375:24:::1;:36:::0;313:103::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.8.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/Migrations.sol",
+  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/Migrations.sol",
   "ast": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/Migrations.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -469,7 +469,7 @@
     "src": "32:387:0"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/Migrations.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/Migrations.sol",
     "exportedSymbols": {
       "Migrations": [
         32
@@ -894,12 +894,12 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0x049974A072b8aDA98211E5Cb5eBe65b53011D31d",
-      "transactionHash": "0x9c860dbcfaada31c6c4e426dd88122afc51250195a75e59257cc93e4a79b7da2"
+      "address": "0xEA326C972b91a05C9e13BC4F3c8294BDcEDACF68",
+      "transactionHash": "0x82e07bd4548199d3bfc5ca557bd00678c0e6334576bd8603cb602d2dfd52d795"
     }
   },
   "schemaVersion": "3.0.21",
-  "updatedAt": "2020-12-15T17:59:50.773Z",
+  "updatedAt": "2020-12-19T01:38:04.547Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

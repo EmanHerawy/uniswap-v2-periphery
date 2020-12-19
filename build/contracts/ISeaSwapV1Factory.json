@@ -21,15 +21,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":\"ISeaSwapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":{\"keccak256\":\"0x83df540aa8f107ddf1fe395d3e1c17aad2eb9a0ed22245158d1fa9e7010ecbf5\",\"urls\":[\"bzz-raw://f7e7e5ef33679f8c9958a0b4fa099f5764349cb740e8120a47d6258d1339e686\",\"dweb:/ipfs/QmXvdCG4AuPYDKcCA3ndtu1etZzUVW1pUAzqoTzkeJmQM6\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":\"ISeaSwapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":{\"keccak256\":\"0x83df540aa8f107ddf1fe395d3e1c17aad2eb9a0ed22245158d1fa9e7010ecbf5\",\"urls\":[\"bzz-raw://f7e7e5ef33679f8c9958a0b4fa099f5764349cb740e8120a47d6258d1339e686\",\"dweb:/ipfs/QmXvdCG4AuPYDKcCA3ndtu1etZzUVW1pUAzqoTzkeJmQM6\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface ISeaSwapV1Factory {\n    function getExchange(address) external view returns (address);\n}\n",
-  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
+  "sourcePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
   "ast": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
     "exportedSymbols": {
       "ISeaSwapV1Factory": [
         5506
@@ -160,7 +160,7 @@
     "src": "0:125:14"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
+    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
     "exportedSymbols": {
       "ISeaSwapV1Factory": [
         5506
@@ -296,7 +296,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.21",
-  "updatedAt": "2020-12-15T17:30:12.662Z",
+  "updatedAt": "2020-12-19T01:27:37.089Z",
   "devdoc": {
     "methods": {}
   },

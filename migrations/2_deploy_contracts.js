@@ -23,7 +23,8 @@ async function getAddress(network, deployer) {
        return ({factory, weth})
   } else if (network === 'ropsten' || network === 'ropsten-fork') {
     //https://ropsten.etherscan.io/token/0xb603cea165119701b58d56d10d2060fbfb3efad8
-    const weth = "0xb603cea165119701b58d56d10d2060fbfb3efad8";
+    const weth = "0xc778417E063141139Fce010982780140Aa0cD5Ab";
+    // const weth = "0xb603cea165119701b58d56d10d2060fbfb3efad8";
     const factory = "0xa90CE65203cB9Bf7e2c1c47549C2bf6296CECB32";
     return ({factory, weth})
   } else if (network === 'kovan') {
