@@ -24,6 +24,7 @@
   "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"getExchange\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":\"ISeaSwapV1Factory\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol\":{\"keccak256\":\"0x83df540aa8f107ddf1fe395d3e1c17aad2eb9a0ed22245158d1fa9e7010ecbf5\",\"urls\":[\"bzz-raw://f7e7e5ef33679f8c9958a0b4fa099f5764349cb740e8120a47d6258d1339e686\",\"dweb:/ipfs/QmXvdCG4AuPYDKcCA3ndtu1etZzUVW1pUAzqoTzkeJmQM6\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
+  "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\n\ninterface ISeaSwapV1Factory {\n    function getExchange(address) external view returns (address);\n}\n",
@@ -160,134 +161,151 @@
     "src": "0:125:14"
   },
   "legacyAST": {
-    "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
-    "exportedSymbols": {
-      "ISeaSwapV1Factory": [
-        5506
-      ]
+    "attributes": {
+      "absolutePath": "/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/interfaces/V1/ISeaSwapV1Factory.sol",
+      "exportedSymbols": {
+        "ISeaSwapV1Factory": [
+          5506
+        ]
+      }
     },
-    "id": 5507,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
         "id": 5498,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.5",
-          ".0"
-        ],
-        "nodeType": "PragmaDirective",
+        "name": "PragmaDirective",
         "src": "0:24:14"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [],
-        "contractKind": "interface",
-        "documentation": null,
-        "fullyImplemented": false,
-        "id": 5506,
-        "linearizedBaseContracts": [
-          5506
-        ],
-        "name": "ISeaSwapV1Factory",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            5506
+          ],
+          "name": "ISeaSwapV1Factory",
+          "scope": 5507
+        },
+        "children": [
           {
-            "body": null,
-            "documentation": null,
-            "functionSelector": "06f2bf62",
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "06f2bf62",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getExchange",
+              "overrides": null,
+              "scope": 5506,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 5505,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 5499,
+                        "name": "ElementaryTypeName",
+                        "src": "81:7:14"
+                      }
+                    ],
+                    "id": 5500,
+                    "name": "VariableDeclaration",
+                    "src": "81:7:14"
+                  }
+                ],
+                "id": 5501,
+                "name": "ParameterList",
+                "src": "80:9:14"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "",
+                      "overrides": null,
+                      "scope": 5505,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 5502,
+                        "name": "ElementaryTypeName",
+                        "src": "113:7:14"
+                      }
+                    ],
+                    "id": 5503,
+                    "name": "VariableDeclaration",
+                    "src": "113:7:14"
+                  }
+                ],
+                "id": 5504,
+                "name": "ParameterList",
+                "src": "112:9:14"
+              }
+            ],
             "id": 5505,
-            "implemented": false,
-            "kind": "function",
-            "modifiers": [],
-            "name": "getExchange",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 5501,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 5500,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 5505,
-                  "src": "81:7:14",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 5499,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "81:7:14",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "80:9:14"
-            },
-            "returnParameters": {
-              "id": 5504,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 5503,
-                  "mutability": "mutable",
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 5505,
-                  "src": "113:7:14",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 5502,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "113:7:14",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "112:9:14"
-            },
-            "scope": 5506,
-            "src": "60:62:14",
-            "stateMutability": "view",
-            "virtual": false,
-            "visibility": "external"
+            "name": "FunctionDefinition",
+            "src": "60:62:14"
           }
         ],
-        "scope": 5507,
+        "id": 5506,
+        "name": "ContractDefinition",
         "src": "26:98:14"
       }
     ],
+    "id": 5507,
+    "name": "SourceUnit",
     "src": "0:125:14"
   },
   "compiler": {
@@ -295,8 +313,8 @@
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.21",
-  "updatedAt": "2020-12-19T01:27:37.089Z",
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2020-12-24T01:04:26.014Z",
   "devdoc": {
     "methods": {}
   },
