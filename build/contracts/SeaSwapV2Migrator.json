@@ -111,7 +111,7 @@
         "id": 35,
         "nodeType": "ImportDirective",
         "scope": 203,
-        "sourceUnit": 8255,
+        "sourceUnit": 8260,
         "src": "25:61:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1438,10 +1438,10 @@
                         "name": "TransferHelper",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8254,
+                        "referencedDeclaration": 8259,
                         "src": "1377:14:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8254_$",
+                          "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8259_$",
                           "typeString": "type(library TransferHelper)"
                         }
                       },
@@ -1452,7 +1452,7 @@
                       "lValueRequested": false,
                       "memberName": "safeApprove",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8139,
+                      "referencedDeclaration": 8144,
                       "src": "1377:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -1927,10 +1927,10 @@
                                 "name": "TransferHelper",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 8254,
+                                "referencedDeclaration": 8259,
                                 "src": "2124:14:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8254_$",
+                                  "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8259_$",
                                   "typeString": "type(library TransferHelper)"
                                 }
                               },
@@ -1941,7 +1941,7 @@
                               "lValueRequested": false,
                               "memberName": "safeTransferETH",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 8253,
+                              "referencedDeclaration": 8258,
                               "src": "2124:30:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2096,10 +2096,10 @@
                               "name": "TransferHelper",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8254,
+                              "referencedDeclaration": 8259,
                               "src": "1743:14:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8254_$",
+                                "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8259_$",
                                 "typeString": "type(library TransferHelper)"
                               }
                             },
@@ -2110,7 +2110,7 @@
                             "lValueRequested": false,
                             "memberName": "safeApprove",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 8139,
+                            "referencedDeclaration": 8144,
                             "src": "1743:26:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2249,10 +2249,10 @@
                               "name": "TransferHelper",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8254,
+                              "referencedDeclaration": 8259,
                               "src": "1864:14:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8254_$",
+                                "typeIdentifier": "t_type$_t_contract$_TransferHelper_$8259_$",
                                 "typeString": "type(library TransferHelper)"
                               }
                             },
@@ -2263,7 +2263,7 @@
                             "lValueRequested": false,
                             "memberName": "safeTransfer",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 8182,
+                            "referencedDeclaration": 8187,
                             "src": "1864:27:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -2501,7 +2501,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 8255,
+          "SourceUnit": 8260,
           "absolutePath": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
           "file": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
           "scope": 203,
@@ -4054,7 +4054,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "safeApprove",
-                              "referencedDeclaration": 8139,
+                              "referencedDeclaration": 8144,
                               "type": "function (address,address,uint256)"
                             },
                             "children": [
@@ -4064,7 +4064,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 8254,
+                                  "referencedDeclaration": 8259,
                                   "type": "type(library TransferHelper)",
                                   "value": "TransferHelper"
                                 },
@@ -4533,7 +4533,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "safeApprove",
-                                      "referencedDeclaration": 8139,
+                                      "referencedDeclaration": 8144,
                                       "type": "function (address,address,uint256)"
                                     },
                                     "children": [
@@ -4543,7 +4543,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 8254,
+                                          "referencedDeclaration": 8259,
                                           "type": "type(library TransferHelper)",
                                           "value": "TransferHelper"
                                         },
@@ -4700,7 +4700,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "safeTransfer",
-                                      "referencedDeclaration": 8182,
+                                      "referencedDeclaration": 8187,
                                       "type": "function (address,address,uint256)"
                                     },
                                     "children": [
@@ -4710,7 +4710,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 8254,
+                                          "referencedDeclaration": 8259,
                                           "type": "type(library TransferHelper)",
                                           "value": "TransferHelper"
                                         },
@@ -4921,7 +4921,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "safeTransferETH",
-                                          "referencedDeclaration": 8253,
+                                          "referencedDeclaration": 8258,
                                           "type": "function (address,uint256)"
                                         },
                                         "children": [
@@ -4931,7 +4931,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 8254,
+                                              "referencedDeclaration": 8259,
                                               "type": "type(library TransferHelper)",
                                               "value": "TransferHelper"
                                             },
@@ -5074,7 +5074,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-24T01:04:25.952Z",
+  "updatedAt": "2020-12-26T06:56:39.535Z",
   "devdoc": {
     "methods": {}
   },

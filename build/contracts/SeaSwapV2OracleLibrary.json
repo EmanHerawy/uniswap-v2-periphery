@@ -1,9 +1,9 @@
 {
   "contractName": "SeaSwapV2OracleLibrary",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/libraries/SeaSwapV2OracleLibrary.sol\":\"SeaSwapV2OracleLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/libraries/SeaSwapV2OracleLibrary.sol\":{\"keccak256\":\"0x0d8f1e9dbf2ce9a1ff07eb990d80e0a7021649493577fc5da4923ce86ab4f412\",\"urls\":[\"bzz-raw://85c2fc8fb61b1ac674bad0ab0272b3f5655bdc9e1e4ff1b2d5aed6cca6a4acfb\",\"dweb:/ipfs/QmPKTgXTVcqahMBiF7CzRU72EfRtf6SwVW5Q17gyL859q5\"]},\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Pair.sol\":{\"keccak256\":\"0xa641243c4010b0278cca046304b8d4596637ea2ae303a126b0be5f20a233951c\",\"urls\":[\"bzz-raw://0df3dc32b17e7451e6cd91481ff6285a487f06e5910739c718d68350fcbaf722\",\"dweb:/ipfs/QmdqMez8TL4HeKozW1zwAwJujf4pSnwcqhX1fGK3YgSZym\"]},\"@uniswap/lib/contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xc671208d030ea70032b9fe0ac9c05d7dcd3ef2593a1a36e7e7f03bf25c2997c4\",\"urls\":[\"bzz-raw://5d5fac757d514b276ae2954b28048cc854dfbeed20706b784a0c2d3efa6af752\",\"dweb:/ipfs/QmVmSgZ8yN9wqV8wHWj8KhHYbi2LoK6pdPK1i1pBqFKcUc\"]}},\"version\":1}",
-  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212209b661c03f5290e3bfd9fcfcb66e488bc2791a53d2fc70ad6feefd028bfdfef8164736f6c63430006060033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212209b661c03f5290e3bfd9fcfcb66e488bc2791a53d2fc70ad6feefd028bfdfef8164736f6c63430006060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/libraries/SeaSwapV2OracleLibrary.sol\":\"SeaSwapV2OracleLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/6b0867de-74e1-417d-8281-ce67ccf712c6/LocalD/upwork/Rob-SeaSwap/Seaswap-project/uniswap-v2-periphery/contracts/libraries/SeaSwapV2OracleLibrary.sol\":{\"keccak256\":\"0x0d8f1e9dbf2ce9a1ff07eb990d80e0a7021649493577fc5da4923ce86ab4f412\",\"urls\":[\"bzz-raw://85c2fc8fb61b1ac674bad0ab0272b3f5655bdc9e1e4ff1b2d5aed6cca6a4acfb\",\"dweb:/ipfs/QmPKTgXTVcqahMBiF7CzRU72EfRtf6SwVW5Q17gyL859q5\"]},\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Pair.sol\":{\"keccak256\":\"0xafa1924c40706f54b552edaa7e2cbf9c35138fff00bd8f46e2b0ebd405ecb028\",\"urls\":[\"bzz-raw://9012cec816490538c0cda1a293289b21d3cb935a6c02632a1fc273ce6ca85fad\",\"dweb:/ipfs/QmVnGnitksdCGQ4oCUaqUuB1qVeGK6EFjEdKy7BmTtud8L\"]},\"@uniswap/lib/contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xc671208d030ea70032b9fe0ac9c05d7dcd3ef2593a1a36e7e7f03bf25c2997c4\",\"urls\":[\"bzz-raw://5d5fac757d514b276ae2954b28048cc854dfbeed20706b784a0c2d3efa6af752\",\"dweb:/ipfs/QmVmSgZ8yN9wqV8wHWj8KhHYbi2LoK6pdPK1i1pBqFKcUc\"]}},\"version\":1}",
+  "bytecode": "0x60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f6d32a8c9dbe760bf77d23cfc6c68c56e4deb95e84c928b34d36ae032eb0fa7664736f6c63430006060033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220f6d32a8c9dbe760bf77d23cfc6c68c56e4deb95e84c928b34d36ae032eb0fa7664736f6c63430006060033",
   "immutableReferences": {},
   "sourceMap": "244:1444:17:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "244:1444:17:-:0;;;;;;12:1:-1;9;2:12",
@@ -36,7 +36,7 @@
         "id": 6056,
         "nodeType": "ImportDirective",
         "scope": 6161,
-        "sourceUnit": 7861,
+        "sourceUnit": 7866,
         "src": "26:66:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -47,7 +47,7 @@
         "id": 6057,
         "nodeType": "ImportDirective",
         "scope": 6161,
-        "sourceUnit": 8095,
+        "sourceUnit": 8100,
         "src": "93:57:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -73,10 +73,10 @@
               "id": 6058,
               "name": "FixedPoint",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8094,
+              "referencedDeclaration": 8099,
               "src": "287:10:17",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_FixedPoint_$8094",
+                "typeIdentifier": "t_contract$_FixedPoint_$8099",
                 "typeString": "library FixedPoint"
               }
             },
@@ -430,10 +430,10 @@
                             "name": "ISeaSwapV2Pair",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7860,
+                            "referencedDeclaration": 7865,
                             "src": "878:14:17",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7860_$",
+                              "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7865_$",
                               "typeString": "type(contract ISeaSwapV2Pair)"
                             }
                           },
@@ -448,7 +448,7 @@
                           "src": "878:20:17",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7860",
+                            "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7865",
                             "typeString": "contract ISeaSwapV2Pair"
                           }
                         },
@@ -459,7 +459,7 @@
                         "lValueRequested": false,
                         "memberName": "price0CumulativeLast",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 7807,
+                        "referencedDeclaration": 7812,
                         "src": "878:41:17",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -547,10 +547,10 @@
                             "name": "ISeaSwapV2Pair",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7860,
+                            "referencedDeclaration": 7865,
                             "src": "950:14:17",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7860_$",
+                              "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7865_$",
                               "typeString": "type(contract ISeaSwapV2Pair)"
                             }
                           },
@@ -565,7 +565,7 @@
                           "src": "950:20:17",
                           "tryCall": false,
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7860",
+                            "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7865",
                             "typeString": "contract ISeaSwapV2Pair"
                           }
                         },
@@ -576,7 +576,7 @@
                         "lValueRequested": false,
                         "memberName": "price1CumulativeLast",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 7812,
+                        "referencedDeclaration": 7817,
                         "src": "950:41:17",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -734,10 +734,10 @@
                           "name": "ISeaSwapV2Pair",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7860,
+                          "referencedDeclaration": 7865,
                           "src": "1170:14:17",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7860_$",
+                            "typeIdentifier": "t_type$_t_contract$_ISeaSwapV2Pair_$7865_$",
                             "typeString": "type(contract ISeaSwapV2Pair)"
                           }
                         },
@@ -752,7 +752,7 @@
                         "src": "1170:20:17",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7860",
+                          "typeIdentifier": "t_contract$_ISeaSwapV2Pair_$7865",
                           "typeString": "contract ISeaSwapV2Pair"
                         }
                       },
@@ -763,7 +763,7 @@
                       "lValueRequested": false,
                       "memberName": "getReserves",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 7802,
+                      "referencedDeclaration": 7807,
                       "src": "1170:32:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$__$returns$_t_uint112_$_t_uint112_$_t_uint32_$",
@@ -1012,10 +1012,10 @@
                                         "name": "FixedPoint",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 8094,
+                                        "referencedDeclaration": 8099,
                                         "src": "1486:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8094_$",
+                                          "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8099_$",
                                           "typeString": "type(library FixedPoint)"
                                         }
                                       },
@@ -1026,10 +1026,10 @@
                                       "lValueRequested": false,
                                       "memberName": "fraction",
                                       "nodeType": "MemberAccess",
-                                      "referencedDeclaration": 8061,
+                                      "referencedDeclaration": 8066,
                                       "src": "1486:19:17",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_function_internal_pure$_t_uint112_$_t_uint112_$returns$_t_struct$_uq112x112_$7922_memory_ptr_$",
+                                        "typeIdentifier": "t_function_internal_pure$_t_uint112_$_t_uint112_$returns$_t_struct$_uq112x112_$7927_memory_ptr_$",
                                         "typeString": "function (uint112,uint112) pure returns (struct FixedPoint.uq112x112 memory)"
                                       }
                                     },
@@ -1044,7 +1044,7 @@
                                     "src": "1486:39:17",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_struct$_uq112x112_$7922_memory_ptr",
+                                      "typeIdentifier": "t_struct$_uq112x112_$7927_memory_ptr",
                                       "typeString": "struct FixedPoint.uq112x112 memory"
                                     }
                                   },
@@ -1055,7 +1055,7 @@
                                   "lValueRequested": false,
                                   "memberName": "_x",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 7921,
+                                  "referencedDeclaration": 7926,
                                   "src": "1486:42:17",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint224",
@@ -1224,10 +1224,10 @@
                                         "name": "FixedPoint",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 8094,
+                                        "referencedDeclaration": 8099,
                                         "src": "1612:10:17",
                                         "typeDescriptions": {
-                                          "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8094_$",
+                                          "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8099_$",
                                           "typeString": "type(library FixedPoint)"
                                         }
                                       },
@@ -1238,10 +1238,10 @@
                                       "lValueRequested": false,
                                       "memberName": "fraction",
                                       "nodeType": "MemberAccess",
-                                      "referencedDeclaration": 8061,
+                                      "referencedDeclaration": 8066,
                                       "src": "1612:19:17",
                                       "typeDescriptions": {
-                                        "typeIdentifier": "t_function_internal_pure$_t_uint112_$_t_uint112_$returns$_t_struct$_uq112x112_$7922_memory_ptr_$",
+                                        "typeIdentifier": "t_function_internal_pure$_t_uint112_$_t_uint112_$returns$_t_struct$_uq112x112_$7927_memory_ptr_$",
                                         "typeString": "function (uint112,uint112) pure returns (struct FixedPoint.uq112x112 memory)"
                                       }
                                     },
@@ -1256,7 +1256,7 @@
                                     "src": "1612:39:17",
                                     "tryCall": false,
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_struct$_uq112x112_$7922_memory_ptr",
+                                      "typeIdentifier": "t_struct$_uq112x112_$7927_memory_ptr",
                                       "typeString": "struct FixedPoint.uq112x112 memory"
                                     }
                                   },
@@ -1267,7 +1267,7 @@
                                   "lValueRequested": false,
                                   "memberName": "_x",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 7921,
+                                  "referencedDeclaration": 7926,
                                   "src": "1612:42:17",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint224",
@@ -1528,7 +1528,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 7861,
+          "SourceUnit": 7866,
           "absolutePath": "@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Pair.sol",
           "file": "@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Pair.sol",
           "scope": 6161,
@@ -1543,7 +1543,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 8095,
+          "SourceUnit": 8100,
           "absolutePath": "@uniswap/lib/contracts/libraries/FixedPoint.sol",
           "file": "@uniswap/lib/contracts/libraries/FixedPoint.sol",
           "scope": 6161,
@@ -1584,7 +1584,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "FixedPoint",
-                  "referencedDeclaration": 8094,
+                  "referencedDeclaration": 8099,
                   "type": "library FixedPoint"
                 },
                 "id": 6058,
@@ -2115,7 +2115,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "price0CumulativeLast",
-                                  "referencedDeclaration": 7807,
+                                  "referencedDeclaration": 7812,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -2146,7 +2146,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7860,
+                                          "referencedDeclaration": 7865,
                                           "type": "type(contract ISeaSwapV2Pair)",
                                           "value": "ISeaSwapV2Pair"
                                         },
@@ -2249,7 +2249,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "price1CumulativeLast",
-                                  "referencedDeclaration": 7812,
+                                  "referencedDeclaration": 7817,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -2280,7 +2280,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 7860,
+                                          "referencedDeclaration": 7865,
                                           "type": "type(contract ISeaSwapV2Pair)",
                                           "value": "ISeaSwapV2Pair"
                                         },
@@ -2449,7 +2449,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "getReserves",
-                              "referencedDeclaration": 7802,
+                              "referencedDeclaration": 7807,
                               "type": "function () view external returns (uint112,uint112,uint32)"
                             },
                             "children": [
@@ -2480,7 +2480,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 7860,
+                                      "referencedDeclaration": 7865,
                                       "type": "type(contract ISeaSwapV2Pair)",
                                       "value": "ISeaSwapV2Pair"
                                     },
@@ -2760,7 +2760,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "_x",
-                                              "referencedDeclaration": 7921,
+                                              "referencedDeclaration": 7926,
                                               "type": "uint224"
                                             },
                                             "children": [
@@ -2797,7 +2797,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "fraction",
-                                                      "referencedDeclaration": 8061,
+                                                      "referencedDeclaration": 8066,
                                                       "type": "function (uint112,uint112) pure returns (struct FixedPoint.uq112x112 memory)"
                                                     },
                                                     "children": [
@@ -2807,7 +2807,7 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 8094,
+                                                          "referencedDeclaration": 8099,
                                                           "type": "type(library FixedPoint)",
                                                           "value": "FixedPoint"
                                                         },
@@ -2987,7 +2987,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "_x",
-                                              "referencedDeclaration": 7921,
+                                              "referencedDeclaration": 7926,
                                               "type": "uint224"
                                             },
                                             "children": [
@@ -3024,7 +3024,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "fraction",
-                                                      "referencedDeclaration": 8061,
+                                                      "referencedDeclaration": 8066,
                                                       "type": "function (uint112,uint112) pure returns (struct FixedPoint.uq112x112 memory)"
                                                     },
                                                     "children": [
@@ -3034,7 +3034,7 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 8094,
+                                                          "referencedDeclaration": 8099,
                                                           "type": "type(library FixedPoint)",
                                                           "value": "FixedPoint"
                                                         },
@@ -3155,7 +3155,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-24T01:04:26.020Z",
+  "updatedAt": "2020-12-26T06:56:39.614Z",
   "devdoc": {
     "methods": {}
   },
