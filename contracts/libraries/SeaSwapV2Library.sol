@@ -21,7 +21,7 @@ library SeaSwapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'564f8acff3653bbff81a3b94476923700201c701c0139947e6f4143c04719cd9' // init code hash for seaswap
+                hex'275e88a10e28e43281ab96948fe2079633db9e4eef0d4f6c9a2c2ece1cc8a4ca' // init code hash for seaswap
                 // hex'96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f' // init code hash
             ))));
     }
