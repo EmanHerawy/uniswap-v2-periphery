@@ -49,8 +49,17 @@ module.exports = {
       gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
     
      network_id: "*",       // Any network (default: none)
-    },
+    }
+    ,  mainnet: {
+      provider: () => new PrivateKeyProvider(privateKey, `https://mainnet.infura.io/v3/${infuraKey}`),
 
+      gas: 5000000,
+      gasPrice: 5e9,
+      network_id: 1,
+      confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+      timeoutBlocks: 200  // # of blocks before a deployment times out  (minimum/default: 50)
+  
+    },
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port
@@ -93,7 +102,7 @@ module.exports = {
       settings: {          // See the solidity docs for advice about optimization and evmVersion
        optimizer: {
          enabled: true,
-         runs: 200
+         runs: 999999
        },
        evmVersion: "istanbul"
       }
