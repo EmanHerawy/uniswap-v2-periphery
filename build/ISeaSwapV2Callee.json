@@ -30,10 +30,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SeaSwapV2Call\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":\"ISeaSwapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":{\"keccak256\":\"0x7eac5c18668efbe36a6e24f3900e4dd58c3b6bc98fdbc463990b75a1ec278b81\",\"urls\":[\"bzz-raw://69b465699224e79edc29ffac63744a30fe54d61a92c3b7b023e5904d045fb1a7\",\"dweb:/ipfs/QmYa8NpA6YoFg2Pee2JdDafaZrpWU8PLpmd5M1Z5CanmH7\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"SeaSwapV2Call\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":\"ISeaSwapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol\":{\"keccak256\":\"0x7eac5c18668efbe36a6e24f3900e4dd58c3b6bc98fdbc463990b75a1ec278b81\",\"urls\":[\"bzz-raw://69b465699224e79edc29ffac63744a30fe54d61a92c3b7b023e5904d045fb1a7\",\"dweb:/ipfs/QmYa8NpA6YoFg2Pee2JdDafaZrpWU8PLpmd5M1Z5CanmH7\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
-  "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0;\r\n\r\ninterface ISeaSwapV2Callee {\r\n    function SeaSwapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;\r\n}\r\n",
@@ -224,210 +223,188 @@
     "src": "0:164:22"
   },
   "legacyAST": {
-    "attributes": {
-      "absolutePath": "@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
-      "exportedSymbols": {
-        "ISeaSwapV2Callee": [
-          7555
-        ]
-      }
+    "absolutePath": "@seaswap/v2-core/contracts/interfaces/ISeaSwapV2Callee.sol",
+    "exportedSymbols": {
+      "ISeaSwapV2Callee": [
+        7555
+      ]
     },
-    "children": [
+    "id": 7556,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            ">=",
-            "0.5",
-            ".0"
-          ]
-        },
         "id": 7543,
-        "name": "PragmaDirective",
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
         "src": "0:24:22"
       },
       {
-        "attributes": {
-          "abstract": false,
-          "baseContracts": [
-            null
-          ],
-          "contractDependencies": [
-            null
-          ],
-          "contractKind": "interface",
-          "documentation": null,
-          "fullyImplemented": false,
-          "linearizedBaseContracts": [
-            7555
-          ],
-          "name": "ISeaSwapV2Callee",
-          "scope": 7556
-        },
-        "children": [
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 7555,
+        "linearizedBaseContracts": [
+          7555
+        ],
+        "name": "ISeaSwapV2Callee",
+        "nodeType": "ContractDefinition",
+        "nodes": [
           {
-            "attributes": {
-              "body": null,
-              "documentation": null,
-              "functionSelector": "1feb54b9",
-              "implemented": false,
-              "isConstructor": false,
-              "kind": "function",
-              "modifiers": [
-                null
-              ],
-              "name": "SeaSwapV2Call",
-              "overrides": null,
-              "scope": 7555,
-              "stateMutability": "nonpayable",
-              "virtual": false,
-              "visibility": "external"
-            },
-            "children": [
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "mutability": "mutable",
-                      "name": "sender",
-                      "overrides": null,
-                      "scope": 7554,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "address",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "address",
-                          "stateMutability": "nonpayable",
-                          "type": "address"
-                        },
-                        "id": 7544,
-                        "name": "ElementaryTypeName",
-                        "src": "85:7:22"
-                      }
-                    ],
-                    "id": 7545,
-                    "name": "VariableDeclaration",
-                    "src": "85:14:22"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "mutability": "mutable",
-                      "name": "amount0",
-                      "overrides": null,
-                      "scope": 7554,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "uint256",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "uint",
-                          "type": "uint256"
-                        },
-                        "id": 7546,
-                        "name": "ElementaryTypeName",
-                        "src": "101:4:22"
-                      }
-                    ],
-                    "id": 7547,
-                    "name": "VariableDeclaration",
-                    "src": "101:12:22"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "mutability": "mutable",
-                      "name": "amount1",
-                      "overrides": null,
-                      "scope": 7554,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "uint256",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "uint",
-                          "type": "uint256"
-                        },
-                        "id": 7548,
-                        "name": "ElementaryTypeName",
-                        "src": "115:4:22"
-                      }
-                    ],
-                    "id": 7549,
-                    "name": "VariableDeclaration",
-                    "src": "115:12:22"
-                  },
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "mutability": "mutable",
-                      "name": "data",
-                      "overrides": null,
-                      "scope": 7554,
-                      "stateVariable": false,
-                      "storageLocation": "calldata",
-                      "type": "bytes",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "name": "bytes",
-                          "type": "bytes"
-                        },
-                        "id": 7550,
-                        "name": "ElementaryTypeName",
-                        "src": "129:5:22"
-                      }
-                    ],
-                    "id": 7551,
-                    "name": "VariableDeclaration",
-                    "src": "129:19:22"
-                  }
-                ],
-                "id": 7552,
-                "name": "ParameterList",
-                "src": "84:65:22"
-              },
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 7553,
-                "name": "ParameterList",
-                "src": "158:0:22"
-              }
-            ],
+            "body": null,
+            "documentation": null,
+            "functionSelector": "1feb54b9",
             "id": 7554,
-            "name": "FunctionDefinition",
-            "src": "62:97:22"
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "SeaSwapV2Call",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 7552,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7545,
+                  "mutability": "mutable",
+                  "name": "sender",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7554,
+                  "src": "85:14:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 7544,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "85:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7547,
+                  "mutability": "mutable",
+                  "name": "amount0",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7554,
+                  "src": "101:12:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7546,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "101:4:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7549,
+                  "mutability": "mutable",
+                  "name": "amount1",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7554,
+                  "src": "115:12:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7548,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "115:4:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7551,
+                  "mutability": "mutable",
+                  "name": "data",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 7554,
+                  "src": "129:19:22",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 7550,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "129:5:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "84:65:22"
+            },
+            "returnParameters": {
+              "id": 7553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "158:0:22"
+            },
+            "scope": 7555,
+            "src": "62:97:22",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
           }
         ],
-        "id": 7555,
-        "name": "ContractDefinition",
+        "scope": 7556,
         "src": "28:134:22"
       }
     ],
-    "id": 7556,
-    "name": "SourceUnit",
     "src": "0:164:22"
   },
   "compiler": {
@@ -435,8 +412,8 @@
     "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-28T22:28:09.392Z",
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2021-01-21T15:27:33.001Z",
   "devdoc": {
     "methods": {}
   },
